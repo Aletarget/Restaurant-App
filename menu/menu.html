@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link href="https://fonts.cdnfonts.com/css/copperplate" rel="stylesheet">
+    <title>Restaurante App</title>
+</head>
+<body>
+  <header>
+    <h1 id="tituloRestaurant">Delicias Tematicas</h1>
+    <nav>
+        <ul class="buttonsInicio">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./menu.html">Menú</a></li>
+            <li><a href="../reservas/reservas.html">Reservas</a></li>
+            <li><a href="../pedidos/pedidos.html">Pedidos</a></li>
+            <li><a href="../contacto/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <div class="auth-buttons">
+        <button onclick="openLoginModal()">Iniciar Sesión</button>
+        <button onclick="openRegisterModal()">Registrarse</button>
+    </div>
+    
+</header>
+
+    <section id="main-content">
+        <div class="menu-section">
+            <h2>Nuestro Menú</h2>
+
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="dish1.jpg" alt="Plato 1">
+                    <h3>Nombre del Plato 1</h3>
+                    <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="../pedidos/pedidos.html"><span class="price">$19.99</span></a>
+                </div>
+
+                <div class="menu-item">
+                    <img src="dish2.jpg" alt="Plato 2">
+                    <h3>Nombre del Plato 2</h3>
+                    <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="../pedidos/pedidos.html"><span class="price">$24.99</span></a>
+                </div>
+                <div class="menu-item">
+                    <img src="dish1.jpg" alt="Plato 1">
+                    <h3>Nombre del Plato 1</h3>
+                    <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="../pedidos/pedidos.html"><span class="price">$19.99</span></a>
+                </div>
+
+                <div class="menu-item">
+                    <img src="dish2.jpg" alt="Plato 2">
+                    <h3>Nombre del Plato 2</h3>
+                    <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="../pedidos/pedidos.html"><span class="price">$24.99</span></a>
+                </div>
+                <div class="menu-item">
+                    <img src="dish1.jpg" alt="Plato 1">
+                    <h3>Nombre del Plato 1</h3>
+                    <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="../pedidos/pedidos.html"><span class="price">$19.99</span></a>
+                </div>
+
+                <div class="menu-item">
+                    <img src="dish2.jpg" alt="Plato 2">
+                    <h3>Nombre del Plato 2</h3>
+                    <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="../pedidos/pedidos.html"><span class="price">$24.99</span></a>
+                </div>
+                <div class="menu-item">
+                    <img src="dish1.jpg" alt="Plato 1">
+                    <h3>Nombre del Plato 1</h3>
+                    <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="../pedidos/pedidos.html"><span class="price">$19.99</span></a>
+                </div>
+
+                <div class="menu-item">
+                    <img src="dish2.jpg" alt="Plato 2">
+                    <h3>Nombre del Plato 2</h3>
+                    <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="../pedidos/pedidos.html"><span class="price">$24.99</span></a>
+                </div>
+                <div class="menu-item">
+                    <img src="dish1.jpg" alt="Plato 1">
+                    <h3>Nombre del Plato 1</h3>
+                    <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="../pedidos/pedidos.html"><span class="price">$19.99</span></a>
+                </div>
+
+                <div class="menu-item">
+                    <img src="dish2.jpg" alt="Plato 2">
+                    <h3>Nombre del Plato 2</h3>
+                    <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="../pedidos/pedidos.html"><span class="price">$24.99</span></a>
+                </div>
+                <div class="menu-item">
+                    <img src="dish1.jpg" alt="Plato 1">
+                    <h3>Nombre del Plato 1</h3>
+                    <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="../pedidos/pedidos.html"><span class="price">$19.99</span></a>
+                </div>
+
+                <div class="menu-item">
+                    <img src="dish2.jpg" alt="Plato 2">
+                    <h3>Nombre del Plato 2</h3>
+                    <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="../pedidos/pedidos.html"><span class="price">$24.99</span></a>
+                </div>
+
+                <!-- Repite este bloque para más elementos del menú -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Delicias Tematicas. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Modales para login y registro -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeLoginModal()">&times;</span>
+            <!-- Contenido del formulario de login -->
+            <h2>Iniciar Sesión</h2>
+            <form>
+                <!-- Campos de usuario y contraseña -->
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+        </div>
+    </div>
+    
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeRegisterModal()">&times;</span>
+            <!-- Contenido del formulario de registro -->
+            <h2>Registrarse</h2>
+            <form>
+                <!-- Campos de nombre, usuario, contraseña, etc. -->
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
