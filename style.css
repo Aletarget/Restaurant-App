@@ -281,3 +281,12 @@ body {
 .reservation-section button:hover {
     background-color: #45a049;
 }
+
+.gallery-item{
+    
+    display: inline-flex;
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+    
+}
