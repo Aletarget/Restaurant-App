@@ -29,6 +29,94 @@
 
     <section id="main-content">
             
+            <div class="menu-section">
+                <h2 style="font-family: Copperplate; font-size: 50px; text-align: center;">Nuestro Menú</h2>
+               
+                <div class="cart-icon">
+                    <a href="#">
+                        <img class="carrito" src="../images/carrito.png" alt="Carrito de compras">
+                    </a>
+                </div>
+
+                    <div class="total">
+                        <h2 style="font-family: Copperplate;">Total a Pagar: $<span id="total-amount">0.00</span></h2>
+                    </div>
+                
+                <div class="menu-grid">
+                        <div class="menu-item">
+                            <img class="image" src="../images/producto1.jpg" alt="Plato 1">
+                            <h3>Nombre del Plato 1</h3>
+                            <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="../pedidos/pedidos.html"><span class="price">$19.99</span></a>
+                        </div>
+        
+                        <div class="menu-item">
+                            <img class="image" src="../images/producto2.jpg" alt="Plato 2">
+                            <h3>Nombre del Plato 2</h3>
+                            <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="../pedidos/pedidos.html"><span class="price">$24.99</span></a>
+                        </div>
+                        <div class="menu-item">
+                            <img class="image" src="../images/producto3.jpg" alt="Plato 1">
+                            <h3>Nombre del Plato 1</h3>
+                            <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="../pedidos/pedidos.html"><span class="price">$19.99</span></a>
+                        </div>
+        
+                        <div class="menu-item">
+                            <img class="image" src="../images/producto4.jpg" alt="Plato 2">
+                            <h3>Nombre del Plato 2</h3>
+                            <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="../pedidos/pedidos.html"><span class="price">$24.99</span></a>
+                        </div>
+                        <div class="menu-item">
+                            <img class="image" src="../images/producto5.jpg" alt="Plato 1">
+                            <h3>Nombre del Plato 1</h3>
+                            <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="../pedidos/pedidos.html"><span class="price">$19.99</span></a>
+                        </div>
+        
+                        <div class="menu-item">
+                            <img class="image" src="../images/producto6.jpg" alt="Plato 2">
+                            <h3>Nombre del Plato 2</h3>
+                            <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="../pedidos/pedidos.html"><span class="price">$24.99</span></a>
+                        </div>
+                        <div class="menu-item">
+                            <img class="image" src="../images/producto7.jpg" alt="Plato 1">
+                            <h3>Nombre del Plato 1</h3>
+                            <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="../pedidos/pedidos.html"><span class="price">$19.99</span></a>
+                        </div>
+        
+                        <div class="menu-item">
+                            <img class="image" src="../images/producto8.jpg" alt="Plato 2">
+                            <h3>Nombre del Plato 2</h3>
+                            <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="../pedidos/pedidos.html"><span class="price">$24.99</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkout-container">
+                    <div class="checkout">
+                        <h2>Detalles de Entrega</h2>
+                        <label for="address">Dirección de Entrega:</label>
+                        <input type="text" id="address" placeholder="Ingrese su dirección">
+                
+                        <label for="phone">Número de Teléfono:</label>
+                        <input type="tel" id="phone" placeholder="Ingrese su número de teléfono">
+                
+                        <label for="payment">Método de Pago:</label>
+                        <select id="payment">
+                            <option value="credit-card">Tarjeta de Crédito</option>
+                            <option value="cash">Efectivo</option>
+                        </select>
+                
+                        <button onclick="checkout()" class="checkout-btn">Pagar</button>
+                    </div>
+                </div>
+            
+            </div>
     </section>
 
     <footer>
